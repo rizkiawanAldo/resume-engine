@@ -1,0 +1,88 @@
+basics:
+  name: "Jane Doe"
+  email: "jane.doe@example.com"
+  phone: "+1 (555) 019-2834"
+  location: "San Francisco, CA"
+  linkedin: "linkedin.com/in/janedoe"
+  github: "github.com/janedoe"
+  website: "janedoe.dev"
+
+skills:
+  languages:
+    - "Python"
+    - "TypeScript"
+    - "Go"
+    - "SQL"
+  architecture_and_concepts:
+    - "Distributed Systems"
+    - "Microservices"
+    - "REST APIs"
+    - "System Design"
+    - "TDD / Unit Testing"
+  cloud_devops_and_infra:
+    - "Docker"
+    - "Kubernetes"
+    - "AWS"
+    - "CI/CD"
+    - "Terraform"
+  databases_and_messaging:
+    - "PostgreSQL"
+    - "Redis"
+    - "Kafka"
+  frameworks_and_libraries:
+    - "FastAPI"
+    - "Node.js"
+    - "React"
+    - "Django"
+
+experience:
+  - company: "CloudScale Systems"
+    role: "Senior Software Engineer"
+    location: "San Francisco, CA"
+    start_date: "Jan 2022"
+    end_date: "Present"
+    bullets:
+      - id: "cs_stream_1"
+        text: "Architected real-time event streaming pipeline processing 50,000 events/sec with Apache Kafka and Python, reducing data ingestion latency by 45%."
+        tags: ["kafka", "python", "distributed-systems", "scalability"]
+      - id: "cs_db_2"
+        text: "Led database migration from legacy monolith to sharded PostgreSQL cluster, reducing query response times by 60% and monthly cloud spend by $15,000."
+        tags: ["postgresql", "database", "performance", "cost-optimization"]
+      - id: "cs_cicd_3"
+        text: "Engineered automated CI/CD deployment pipelines using GitHub Actions and Kubernetes, decreasing release cycle times from 2 days to 30 minutes."
+        tags: ["kubernetes", "ci-cd", "docker", "devops"]
+      - id: "cs_cross_4"
+        text: "Collaborated closely with product managers and business teams to evaluate technical constraints and deliver critical customer-facing features on schedule."
+        tags: ["cross-functional", "system-design", "product-delivery"]
+
+  - company: "FinTech Innovations"
+    role: "Software Engineer"
+    location: "New York, NY"
+    start_date: "Jun 2019"
+    end_date: "Dec 2021"
+    bullets:
+      - id: "ft_ledger_1"
+        text: "Designed double-entry financial ledger service handling $10M+ daily transaction volume with 99.999% data consistency."
+        tags: ["fintech", "python", "postgresql", "acid", "reliability"]
+      - id: "ft_cache_2"
+        text: "Implemented multi-tier caching strategy using Redis, reducing p99 API response latency from 220ms to 28ms."
+        tags: ["redis", "caching", "performance", "api-design"]
+
+projects:
+  - name: "DevMetrics"
+    role: "Creator"
+    url: "github.com/janedoe/devmetrics"
+    bullets:
+      - "Built an open-source developer dashboard tracking pull request velocity and code review metrics across GitHub repositories."
+  - name: "QuickResize"
+    role: "Creator"
+    url: "janedoe.github.io/quickresize"
+    bullets:
+      - "Developed an offline client-side image optimization web tool in JavaScript."
+
+education:
+  - institution: "University of California, Berkeley"
+    location: "Berkeley, CA"
+    degree: "B.S. in Computer Science"
+    start_date: "Sep 2015"
+    end_date: "May 2019"

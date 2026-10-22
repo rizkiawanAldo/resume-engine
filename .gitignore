@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+env/
+ENV/
+
+# Secrets & Personal Data
+.env
+master_experience.yaml
+!master_experience.example.yaml
+
+# Python cache & temp
+__pycache__/
+*.pyc
+*.bak
+
+# Build outputs
+dist/*
+!dist/.gitkeep
+!dist/**/.gitkeep
+
+# Local user inputs
+inputs/jd.txt
+!inputs/.gitkeep
